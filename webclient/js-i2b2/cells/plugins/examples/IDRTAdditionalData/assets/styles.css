@@ -1,0 +1,167 @@
+#main {
+	background-color: white;
+	padding: 5px;
+}
+
+#dropzone {
+	position: relative;
+	font-weight: bold;
+	font-family: arial, helvetica;
+	height: 90%; /*400px;*/
+	background-color: #D9ECF0;
+	border: 1px solid gray;
+	padding: 5px;
+	margin-bottom: 5px;
+	-webkit-transition: height 1s;
+	transition: height 1s;
+}
+
+#drop {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -112px;
+}
+
+div.content {
+	margin: 0px;
+	margin-top: 12px;
+	padding: 0px;
+	background-color: white; # D9ECF0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	/* 	height: 88%; */
+	height: 450px;
+	overflow: auto;
+	/*border:0px solid #b8c9cd; */
+	border: none;
+}
+
+div.content thead th {
+	/*max-width: 300px;*/
+	padding: 5px;
+	cursor: pointer;
+}
+
+div.content tbody td {
+	padding: 5px;
+}
+
+.ADD-Table {
+	width: 100%;
+}
+
+div.content tbody tr:nth-child(odd) {
+	color: #000000;
+	background-color: #f2f7f8;
+}
+
+div.content tbody tr:hover {
+	color: white;
+	background: #9BB8DA;
+}
+
+.tab {
+	font-weight: bold;
+	font-family: arial, helvetica;
+	text-align: center;
+	background-color: #D9ECF0;
+	height: 19px;
+	min-width: 75px;
+	padding: 5px;
+	padding-bottom: 3px;
+	padding-top: 7px;
+	display: inline-block;
+	margin-right: 3px;
+	z-index: -1;
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	cursor: pointer;
+}
+
+.tab:hover {
+	
+}
+
+.active {
+	height: 20px;
+	z-index: 50;
+	background-color: white;
+}
+
+.tabcontainer {
+	background-color: white;
+	/* 	min-height: 300px; */
+	border: 1px solid gray;
+	z-index: 1;
+	padding: 10px;
+	/* 	height: 97%; */
+}
+
+.ADD-container {
+	height: 95%;
+}
+
+#IDRTAdditionalData_content {
+	display: none;
+}
+
+div.content td,th {
+	text-align: left;
+	border: 1px solid white;
+}
+
+.searchbar {
+	margin-top: 15px;
+}
+
+.modifierForm {
+	margin-top: 15px;
+	height: 20px;
+}
+
+.mfhidden {
+	visibility: hidden;
+}
+
+#exportbox {
+	position: absolute;
+	top: 2px;
+	left: 144px;
+	color: white;
+	font-weight: bold;
+	font-family: arial, helvetica;
+	background-color: #6677AA;
+	border: 1px solid #667788;
+	height: 19px;
+	/*margin-top:3px;*/
+	width: 75px;
+	display: inline-block;
+	text-align: center;
+}
+
+#exportbox:hover {
+	cursor: pointer;
+	background-color: #97a6d3;
+}
+
+#csvexport {
+	position: absolute;
+	top: 2px;
+	left: 5px;
+}
+
+#loadspan {
+	font-weight: bold;
+	font-family: arial, helvetica;
+}
+
+#loaddiv {
+	display: none;
+}
+
+#ad_table_content {
+	display: none;
+}

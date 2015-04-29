@@ -1,0 +1,55 @@
+<html>
+<body>
+	<div id="main">
+		<div id="dropzone">
+			<img id="drop"
+				src="js-i2b2/cells/plugins/examples/IDRTAdditionalData/assets/drop.png"
+				width="225px">
+		</div>
+		<div id="IDRTAdditionalData_content" style="height: 100%">
+			<div id="ADD-TAB" style="height: 30px;">
+				<div id="tab1" onclick="i2b2.IDRTAdditionalData.TabManager('tab1');"
+					class="tab active">Patientendaten</div>
+			</div>
+			<div id="ADD-container" class="ADD-container" style="display: block;">
+				<div id="container_tab1" class="tabcontainer" style="display: none;">
+					<div id="loaddiv">
+						<img
+							src="js-i2b2/cells/plugins/examples/IDRTAdditionalData/assets/load.gif">
+						<span id="loadspan"></span>
+					</div>
+					<div id="searchbar" class="searchbar" style="position: relative;">
+						<input type="text" id="searchtableinput" placeholder="Search"
+							style="margin-top: 2px;"
+							onkeyup="i2b2.IDRTAdditionalData.Search(this.value,'tab1');">
+						<div id="exportbox"
+							onclick="i2b2.IDRTAdditionalData.CSVExport('tab1');">
+							<span id="csvexport">CSV Export</span>
+						</div>
+					</div>
+					<form class="modifierForm mfhidden"></form>
+					<div id="ad_table_content_tab1" class="content"
+						style="display: none;">
+
+						<table id="maintable_tab1" class="ADD-Table"
+							style="margin: 0px; margin-top: 12px; padding: 0px; background-color: #D9ECF0; border-collapse: collapse; border-spacing: 0; border: 1px solid #b8c9cd;">
+							<thead>
+								<tr id="tablehead_tab1">
+								</tr>
+							</thead>
+							<tbody id="tablebody_tab1">
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="ADD-loading" class="loaddiv" style="display: block;">
+				<br></br> <img
+					src="js-i2b2/cells/plugins/examples/IDRTAdditionalData/assets/load.gif">
+				<span id="loadspan"></span>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
