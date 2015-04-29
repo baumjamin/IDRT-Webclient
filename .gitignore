@@ -11,4 +11,4 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-/IDRT-Webclient/webclient/i2b2_config_data.js
+/webclient/i2b2_config_data.js
